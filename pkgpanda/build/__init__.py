@@ -15,7 +15,7 @@ from pkgpanda import Install, PackageId, Repository
 from pkgpanda.actions import add_package_file
 from pkgpanda.constants import RESERVED_UNIT_NAMES
 from pkgpanda.exceptions import FetchError, PackageError, ValidationError
-from pkgpanda.util import (check_forbidden_services, download_atomic, load_json,
+from pkgpanda.util import (check_forbidden_services, load_json,
                            load_string, make_file, make_tar, rewrite_symlinks,
                            write_json, write_string)
 
